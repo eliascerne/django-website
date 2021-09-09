@@ -23,8 +23,8 @@ def home(request):
     context = {
         'posts': posts
     }
-    return render(request, 'eriasoverflow/home.html', context)
+    return render(request, 'eriasoverflow/html/home.html', context)
 
 def about(request):
-    return render(request, 'eriasoverflow/about.html', {'title': 'About'})
+    return render(request, 'eriasoverflow/html/about.html', {'title': 'About'})
     
