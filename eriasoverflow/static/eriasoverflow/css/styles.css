@@ -118,3 +118,8 @@ img{
 .section_subtitle{
     text-align: center;
 }
+
+/* Layout */
+.container {
+    max-width: 1500px;
+}
