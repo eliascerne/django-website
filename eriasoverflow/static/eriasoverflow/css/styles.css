@@ -32,4 +32,15 @@
     /* Font weight */
     --font-medium: 500;
     --font-semi-bold: 600;
+
+
+    /* Margen Bottom .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
 }
