@@ -16,4 +16,7 @@
     --text-color: hsl(var(--root-color), 8%, 45%);
     --text-color-light: hsl(var(--root-color), 8%, 61%);
     --container-color: white;
+
+    /* Fonts */
+    --body-font: 'Poppins', sans-serif;
 }
