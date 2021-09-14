@@ -1,2 +1,13 @@
 /* Import Google Font 'poppins' */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Variables CSS */
+:root{
+    --header-height: 3rem;
+
+    /* Colors */
+    /* Change root color */
+    --root-color: ; /* Purple: 250 - Green: 142 - Blue: 230 - Pink: 340 */
+
+    /* HSL color mode */
+}
