@@ -202,6 +202,10 @@ img{
     font-weight: var(--font-medium);
 }
 
+.nav_link:hover{
+    color: var(--first-color);
+}
+
 
 .user_img{
     width: 40px;
