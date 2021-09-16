@@ -169,7 +169,9 @@ img{
     cursor: pointer;
 }
 
-
+.nav_toggle:hover{
+    color: var(--first-color);
+}
 
 
 .user_img{
