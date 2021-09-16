@@ -228,7 +228,9 @@ img{
 
 
 /* SHOW MENU */
-
+.show-menu {
+    bottom: 0;
+}
 
 
 
