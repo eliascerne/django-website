@@ -9,3 +9,10 @@ if(navToggle){
         navMenu.classList.add('show-menu')
     })
 }
+
+/* HIDE MENU */
+if(navClose){
+    navClose.addEventListener('click', () =>{
+        navMenu.classList.remove('show-menu')
+    })
+}
