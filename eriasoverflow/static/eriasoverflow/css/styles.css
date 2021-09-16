@@ -188,6 +188,11 @@ img{
     }
 }
 
+.nav_list{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
 
 
 .user_img{
