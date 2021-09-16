@@ -17,6 +17,8 @@
     --title-color: hsl(var(--root-color), 8%, 15%);
     --text-color: hsl(var(--root-color), 8%, 45%);
     --text-color-light: hsl(var(--root-color), 8%, 61%);
+    --input-color: hsl(var(--root-color), 70%, 96%);
+    --body-color: var(--root-color), 60%, 99%;
     --container-color: white;
 
     /* Fonts */
@@ -80,7 +82,8 @@ body{
     margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--text-color);
+    background-color: var(--body-color);
+    color: var(--text-color);
 }
 
 h1,h2,h3,h4{
