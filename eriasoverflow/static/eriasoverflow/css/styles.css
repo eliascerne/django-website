@@ -5,6 +5,8 @@
 :root{
     --header-height: 3rem;
 
+    --max-width: 1500px;
+
     /* Colors */
     /* Change root color */
     --root-color: 250; /* Purple: 250 - Green: 142 - Blue: 230 - Pink: 340 */
@@ -121,5 +123,5 @@ img{
 
 /* Layout */
 .container {
-    max-width: 1500px;
+    max-width: var(--max-width);
 }
