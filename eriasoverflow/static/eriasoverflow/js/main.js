@@ -1,16 +1,16 @@
-/* GET VARIABLES */
+/* NAV HIDDEN */
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
 
-/* SHOW MENU */
+/* MENU SHOW */
 if(navToggle){
-    navToggle.addEventListener('click', () =>{
+    navToggle.addEventListener('click', () =>[
         navMenu.classList.add('show-menu')
-    })
+    ])
 }
 
-/* HIDE MENU */
+/* MENU HIDE */
 if(navClose){
     navClose.addEventListener('click', () =>{
         navMenu.classList.remove('show-menu')
