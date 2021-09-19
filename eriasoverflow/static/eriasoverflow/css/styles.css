@@ -242,8 +242,9 @@ img{
 
 /* SEARCH FORM */
 .search{
-    padding-right: 4rem;
-    padding-top: .75rem;
+    width: 80%;
+    padding-top: 1rem;
+    padding-left: 3.75rem;
     position: absolute;
 }
 
