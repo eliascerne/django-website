@@ -283,7 +283,7 @@ img{
     outline: none;
 }
 
-.questions_title{
+.main_title{
     font-size: var(--h1-font-size);
     text-align: center;
     color: var(--first-color);
@@ -334,10 +334,18 @@ img{
     font-size: var(--h3-font-size);
 }
 
-.question_tags{
+.question_subsubtitle{
+    padding-top: .5rem;
     font-size: var(--smaller-font-size);
     display: flex;
+    justify-content: space-between;
+}
+
+.question_tags{
+    display: flex;
     gap: .45rem;
+    height: 20px;
+    flex-wrap: wrap;
 }
 
 .question_tag{
@@ -350,4 +358,11 @@ img{
 
 .question_tag:hover{
     background-color: var(--tag-color-darker)
+}
+
+.question_date{
+    font-size: var(--smaller-font-size);
+    justify-content: flex-end;
+    padding-right: .3rem;
+    padding-left: .5rem;
 }
