@@ -219,7 +219,7 @@ img{
 .nav_close{
     position: absolute;
     right: 1.3rem;
-    bottom: .5rem;
+    bottom: .85rem;
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--first-color);
@@ -243,8 +243,9 @@ img{
 /* SEARCH FORM */
 .search{
     width: 80%;
+    left: 10%;
+    padding-right: 1rem;
     padding-top: 1rem;
-    padding-left: 3.75rem;
     position: absolute;
 }
 
