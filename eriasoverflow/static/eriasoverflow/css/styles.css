@@ -26,6 +26,7 @@
     --scroll-thumb-color: hsl(var(--root-color), 12%, 80%);
     --scroll-thumb-color-hover: hsl(var(--root-color), 8%, 65%);
     --container-color: white;
+    --shadow-color: hsl(var(--root-color), 92%, 64%, 48%);
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;
@@ -278,4 +279,10 @@ img{
     font-size: var(--h1-font-size);
     text-align: center;
     color: var(--first-color);
+}
+
+.question{
+    margin: 1rem;
+    box-shadow: 0 0 6px var(--shadow-color);
+    border-radius: 1.5rem;
 }
