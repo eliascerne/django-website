@@ -52,16 +52,16 @@
     border-radius: .75rem;
 }
 
-.login_register{
+.login_info{
     text-align: center;
 }
 
-.login_register_link{
+.login_register{
     color: var(--blue-color-hsl);
     font-size: var(--h3-font-size);
     font-weight: var(--font-semi-bold);
 }
 
-.login_register_link:hover{
+.login_register:hover{
     color: var(--blue-color-hsl-darker);
 }
