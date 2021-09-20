@@ -1,9 +1,12 @@
 /* ROOT FILE */
+@import url(/eriasoverflow/static/eriasoverflow/root.css);
 
-@import url(/eriasoverflow/static/eriasoverflow/home/css/styles.css);
 
 .main_title{
     padding-top: 2rem;
+    font-size: var(--h1-font-size);
+    text-align: center;
+    color: var(--first-color);
 }
 
 .login_content{
@@ -20,13 +23,28 @@
     display: grid;
     gap: 1rem;
     padding: 1rem;
+    padding-top: 1.5rem;
 }
 
 .login_input{
     background-color: var(--body-color);
     border: .15rem solid var(--login-form-border);
-    border-radius: .35rem;
-    padding: .2rem;
+    border-radius: .65rem;
+    padding: .5rem;
     outline: none;
     font-size: var(--normal-font-size);
+}
+
+.login_button{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.login_link{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: var(--blue-color);
+    border-radius: .75rem;
 }
