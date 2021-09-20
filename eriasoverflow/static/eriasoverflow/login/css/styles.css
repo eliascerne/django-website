@@ -15,6 +15,7 @@
 
 .login_form{
     margin: 2rem;
+    margin-bottom: 1rem;
     box-shadow: 0 0 6px var(--shadow-color);
     border-radius: 1rem;
 }
@@ -40,7 +41,7 @@
     padding: 1.5rem;
 }
 
-.login_link{
+.login_button_link{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: .5rem;
@@ -49,4 +50,18 @@
     background-color: var(--blue-color-hsl);
     font-weight: var(--font-semi-bold);
     border-radius: .75rem;
+}
+
+.login_register{
+    text-align: center;
+}
+
+.login_register_link{
+    color: var(--blue-color-hsl);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.login_register_link:hover{
+    color: var(--blue-color-hsl-darker);
 }

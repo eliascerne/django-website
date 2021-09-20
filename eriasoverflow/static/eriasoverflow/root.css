@@ -35,6 +35,7 @@
     --search-border: hsl(0, 0%, 75%);
     --login-form-border: hsl(var(--blue-color), 98%, 54%);
     --blue-color-hsl: hsl(var(--blue-color), 98%, 54%);
+    --blue-color-hsl-darker: hsl(var(--blue-color), 98%, 40%);
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;
