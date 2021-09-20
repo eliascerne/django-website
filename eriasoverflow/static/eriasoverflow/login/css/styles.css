@@ -3,14 +3,14 @@
 
 
 .main_title{
-    padding-top: 2rem;
+    padding-top: 3rem;
     font-size: var(--h1-font-size);
     text-align: center;
     color: var(--first-color);
 }
 
 .login_content{
-    margin-top: 10rem;
+    padding-top: 6rem;
 }
 
 .login_form{
