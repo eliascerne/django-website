@@ -5,3 +5,25 @@
 .main_title{
     padding-top: 2rem;
 }
+
+.login_content{
+    margin-top: 10rem;
+}
+
+.login_form{
+    margin: 2rem;
+    box-shadow: 0 0 6px var(--shadow-color);
+    border-radius: 1rem;
+}
+
+.login_inputs{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.login_input{
+    background-color: var(--body-color);
+    border: none;
+    outline: none;
+}
