@@ -45,6 +45,8 @@
     padding-right: 2rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    background-color: var(--blue-color);
+    color: white;
+    background-color: var(--blue-color-hsl);
+    font-weight: var(--font-semi-bold);
     border-radius: .75rem;
 }
