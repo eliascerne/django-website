@@ -24,6 +24,9 @@
 
 .login_input{
     background-color: var(--body-color);
-    border: none;
+    border: .15rem solid var(--login-form-border);
+    border-radius: .35rem;
+    padding: .2rem;
     outline: none;
+    font-size: var(--normal-font-size);
 }
