@@ -32,6 +32,8 @@
     --shadow-color: hsl(var(--root-color), 92%, 64%, 48%);
     --tag-color: hsl(var(--blue-color), 45%, 85%);
     --tag-color-darker: hsl(var(--blue-color), 60%, 80%);
+    --search-border: hsl(0, 0%, 75%);
+    --login-form-border: hsl(var(--blue-color), 98%, 54%);
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;
@@ -262,7 +264,7 @@ img{
 .search_content{
     background-color: var(--body-color);
     border-radius: .5rem;
-    border: .2rem solid #BEBEBE;
+    border: .2rem solid var(--search-border);
     display: flex;
     padding-left: .5rem;
     padding-right: .2rem;
