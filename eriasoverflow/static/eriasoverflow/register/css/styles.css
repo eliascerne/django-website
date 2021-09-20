@@ -69,4 +69,5 @@
 .register_terms{
     margin-left: 3rem;
     margin-right: 3rem;
+    font-size: var(--smaller-font-size);
 }
