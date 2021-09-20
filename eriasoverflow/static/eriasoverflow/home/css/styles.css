@@ -1,0 +1,92 @@
+/* ROOT FILE */
+@import url(/eriasoverflow/static/eriasoverflow/root.css);
+
+
+/* Heading */
+.main_title{
+    font-size: var(--h1-font-size);
+    text-align: center;
+    color: var(--first-color);
+}
+
+/* QUESTION */
+
+.question{
+    margin: 1rem;
+    box-shadow: 0 0 6px var(--shadow-color);
+    border-radius: 1.5rem;
+}
+
+.question_content{
+    padding: .75rem;
+    padding-left: 1rem;
+    display: flex;
+}
+
+.question_metadata{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .45rem 1rem;
+}
+
+.question_icon{
+    font-size: 1rem;
+}
+
+.question_data{
+    margin-left: 1rem;
+}
+
+.question_meta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.question_title{
+    color: var(--first-color-light);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+}
+
+.question_subtitle{
+    font-size: var(--h3-font-size);
+}
+
+.question_subsubtitle{
+    padding-top: .5rem;
+    font-size: var(--smaller-font-size);
+    display: flex;
+    justify-content: space-between;
+}
+
+.question_tags{
+    display: flex;
+    gap: .45rem;
+    height: 20px;
+    flex-wrap: wrap;
+}
+
+.question_tag{
+    width: fit-content;
+    padding-right: .2rem;
+    padding-left: .2rem;
+    border-radius: .45rem;
+    background-color: var(--tag-color);
+}
+
+.question_tag:hover{
+    background-color: var(--tag-color-darker)
+}
+
+.question_date{
+    font-size: var(--smaller-font-size);
+    justify-content: flex-end;
+    padding-right: .3rem;
+    padding-left: .5rem;
+}
+
+/* LOGIN */
