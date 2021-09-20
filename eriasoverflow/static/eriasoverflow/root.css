@@ -37,6 +37,7 @@
     --register-form-border: hsl(var(--blue-color), 98%, 54%);
     --blue-color-hsl: hsl(var(--blue-color), 98%, 54%);
     --blue-color-hsl-darker: hsl(var(--blue-color), 98%, 40%);
+    --register-terms: gray;
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;

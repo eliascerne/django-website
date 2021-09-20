@@ -67,7 +67,8 @@
 }
 
 .register_terms{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     font-size: var(--smaller-font-size);
+    color: var(--register-terms);
 }
