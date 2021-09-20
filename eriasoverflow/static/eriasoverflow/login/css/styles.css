@@ -2,3 +2,6 @@
 
 @import url(/eriasoverflow/static/eriasoverflow/home/css/styles.css);
 
+.main_title{
+    padding-top: 2rem;
+}
