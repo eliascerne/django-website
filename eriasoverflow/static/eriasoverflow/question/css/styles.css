@@ -18,3 +18,7 @@
     padding: 1rem;
     padding-top: .75rem;
 }
+
+.question_heading{
+    font-size: var(--h3-font-size);
+}
