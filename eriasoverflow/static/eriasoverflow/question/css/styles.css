@@ -25,5 +25,11 @@
 
 .question_date{
     text-align: right;
-    font-size: var(--smaller-font-size)
+    font-size: var(--smaller-font-size);
+    padding-top: .1rem;
+}
+
+.question_border{
+    border-top: .1rem solid var(--border-color);
+    padding-top: .1rem;
 }

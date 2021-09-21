@@ -38,6 +38,7 @@
     --blue-color-hsl: hsl(var(--blue-color), 98%, 54%);
     --blue-color-hsl-darker: hsl(var(--blue-color), 98%, 40%);
     --register-terms: gray;
+    --border-color: hsl(var(--root-color), 8%, 65%);
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;
