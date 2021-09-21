@@ -1,0 +1,67 @@
+/* ROOT FILE */
+@import url(/eriasoverflow/static/eriasoverflow/root.css);
+
+
+.main_title{
+    padding-top: 3rem;
+    font-size: var(--h1-font-size);
+    text-align: center;
+    color: var(--first-color);
+}
+
+.login_content{
+    padding-top: 6rem;
+}
+
+.login_form{
+    margin: 2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 6px var(--shadow-color);
+    border-radius: 1rem;
+}
+
+.login_inputs{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
+}
+
+.login_input{
+    background-color: var(--body-color);
+    border: .15rem solid var(--login-form-border);
+    border-radius: .65rem;
+    padding: .5rem;
+    outline: none;
+    font-size: var(--normal-font-size);
+}
+
+.login_button{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.login_button_link{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: white;
+    background-color: var(--blue-color-hsl);
+    font-weight: var(--font-semi-bold);
+    border-radius: .75rem;
+}
+
+.login_info{
+    text-align: center;
+}
+
+.login_register{
+    color: var(--blue-color-hsl);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.login_register:hover{
+    color: var(--blue-color-hsl-darker);
+}
