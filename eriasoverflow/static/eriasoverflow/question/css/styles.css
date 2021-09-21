@@ -37,3 +37,16 @@
 .question_text{
     padding-top: .6rem;
 }
+
+.code_content{
+    padding: 1rem;
+    padding-left: .5rem;
+}
+
+.code_text{
+    background-color: var(--code-color);
+    padding: .5rem;
+    padding-right: 1rem;
+    border-radius: .70rem;
+    width: fit-content;
+}
