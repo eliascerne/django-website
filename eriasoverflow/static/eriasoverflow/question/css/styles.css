@@ -33,3 +33,7 @@
     border-top: .1rem solid var(--border-color);
     padding-top: .1rem;
 }
+
+.question_text{
+    padding-top: .6rem;
+}
