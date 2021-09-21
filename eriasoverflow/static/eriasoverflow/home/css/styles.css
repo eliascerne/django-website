@@ -11,7 +11,7 @@
 
 /* QUESTION */
 
-.question{
+.question_container{
     margin: 1rem;
     box-shadow: 0 0 6px var(--shadow-color);
     border-radius: 1.5rem;
