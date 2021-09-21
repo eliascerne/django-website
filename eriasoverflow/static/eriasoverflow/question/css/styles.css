@@ -1,2 +1,9 @@
 /* ROOT FILE */
 @import url(/eriasoverflow/static/eriasoverflow/root.css);
+
+
+.main_header{
+    text-align: center;
+    color: var(--blue-color-hsl);
+    font-size: var(--h2-font-size);
+}

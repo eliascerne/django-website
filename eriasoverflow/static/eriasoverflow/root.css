@@ -45,7 +45,7 @@
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 5rem;
     --h1-font-size: 3rem;
-    --h2-font-size: 1rem;
+    --h2-font-size: 2rem;
     --h3-font-size: .9rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
