@@ -22,3 +22,8 @@
 .question_heading{
     font-size: var(--h3-font-size);
 }
+
+.question_date{
+    text-align: right;
+    font-size: var(--smaller-font-size)
+}
