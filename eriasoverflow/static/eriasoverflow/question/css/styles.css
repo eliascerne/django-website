@@ -7,3 +7,14 @@
     color: var(--blue-color-hsl);
     font-size: var(--h2-font-size);
 }
+
+.question_container{
+    margin: 1rem;
+    box-shadow: 0 0 6px var(--shadow-color);
+    border-radius: 1.5rem;
+}
+
+.question_content{
+    padding: 1rem;
+    padding-top: .75rem;
+}
