@@ -79,14 +79,3 @@
     margin-left: 2rem;
     font-size: calc(var(--h2-font-size) - .25rem);
 }
-
-.your_answer_input{
-    padding: .25rem;
-}
-
-.your_answer_input_heading{
-    border: none;
-    outline: none;
-    padding: .5rem;
-    font-size: var(--h3-font-size);
-}
