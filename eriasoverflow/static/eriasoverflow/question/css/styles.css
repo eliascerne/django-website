@@ -21,7 +21,7 @@
     padding-right: .75rem;
 }
 
-.question_heading{
+.question_header{
     font-size: var(--h3-font-size);
 }
 
@@ -55,13 +55,13 @@
     width: fit-content;
 }
 
-.question_user_container{
+.user{
     padding-top: .5rem;
     display: flex;
     justify-content: flex-end;
 }
 
-.question_user{
+.user_container{
     display: flex;
     gap: .5rem;
     padding: .5rem;
@@ -75,7 +75,7 @@
     align-items: center;
 }
 
-.answer_header{
+.your_answer_header{
     margin-left: 2rem;
     font-size: calc(var(--h2-font-size) - .25rem);
 }
