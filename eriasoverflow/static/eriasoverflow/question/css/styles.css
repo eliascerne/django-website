@@ -75,7 +75,7 @@
     align-items: center;
 }
 
-.your_answer_header{
+.answer_header{
     margin-left: 2rem;
     font-size: calc(var(--h2-font-size) - .25rem);
 }
