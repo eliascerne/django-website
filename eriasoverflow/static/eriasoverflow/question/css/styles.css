@@ -79,3 +79,15 @@
     margin-left: 2rem;
     font-size: calc(var(--h2-font-size) - .25rem);
 }
+
+.answer_date{
+    text-align: right;
+    font-size: var(--smaller-font-size);
+    padding-top: .1rem;
+    padding-right: 1.75rem;
+    margin: .25rem;
+}
+
+.answer_subcontainer{
+    margin-top: 0;
+}
