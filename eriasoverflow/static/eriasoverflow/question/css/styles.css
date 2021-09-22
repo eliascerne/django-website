@@ -74,3 +74,8 @@
     display: flex;
     align-items: center;
 }
+
+.answer_header{
+    margin-left: 2rem;
+    font-size: calc(var(--h2-font-size) - .25rem);
+}
