@@ -16,7 +16,9 @@
 
 .question_content{
     padding: 1rem;
+    padding-bottom: .75rem;
     padding-top: .75rem;
+    padding-right: .75rem;
 }
 
 .question_heading{
@@ -27,6 +29,8 @@
     text-align: right;
     font-size: var(--smaller-font-size);
     padding-top: .1rem;
+    padding-right: .25rem;
+    padding-bottom: .1rem;
 }
 
 .question_border{
@@ -49,4 +53,24 @@
     padding-right: 1rem;
     border-radius: .70rem;
     width: fit-content;
+}
+
+.question_user_container{
+    padding-top: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.question_user{
+    display: flex;
+    gap: .5rem;
+    padding: .5rem;
+    box-shadow: 0 0 6px var(--shadow-color);
+    border-radius: 1rem;
+    width: fit-content;
+}
+
+.user_img{
+    display: flex;
+    align-items: center;
 }
