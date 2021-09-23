@@ -98,3 +98,13 @@
     gap: 1rem;
     font-size: 1.2rem;
 }
+
+.your_answer_input{
+    border: none;
+    outline: none;
+    font-size: var(--h3-font-size);
+}
+
+.your_answer_input{
+    width: 100%;
+}
