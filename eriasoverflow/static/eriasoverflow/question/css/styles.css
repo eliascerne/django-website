@@ -121,9 +121,9 @@
 }
 
 .your_answer_button{
-    margin-top: .75rem;
-    margin-bottom: .75rem;
-    padding: .35rem;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    padding: .25rem;
     border-radius: .3rem;
     background-color: var(--first-color);
 }
