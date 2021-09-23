@@ -14,6 +14,10 @@
     border-radius: 1.5rem;
 }
 
+#initial_question{
+    background-color: var(--question_marked);
+}
+
 .question_content{
     padding: 1rem;
     padding-bottom: .75rem;
@@ -68,6 +72,7 @@
     box-shadow: 0 0 6px var(--shadow-color);
     border-radius: 1rem;
     width: fit-content;
+    background-color: var(--body-color);
 }
 
 .user_img{
