@@ -121,11 +121,11 @@
 }
 
 .your_answer_button{
-    margin-top: .4rem;
-    margin-bottom: .4rem;
+    margin-top: .45rem;
+    margin-bottom: .5rem;
     padding: .25rem;
     border-radius: .3rem;
-    background-color: var(--first-color);
+    background-color: var(--blue-color-hsl);
 }
 
 .submit_button{
