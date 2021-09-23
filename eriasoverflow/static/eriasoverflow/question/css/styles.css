@@ -122,4 +122,12 @@
 
 .your_answer_button{
     margin-top: .75rem;
+    margin-bottom: .75rem;
+    padding: .35rem;
+    border-radius: .3rem;
+    background-color: var(--first-color);
+}
+
+.submit_button{
+    color: white;
 }
