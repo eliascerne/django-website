@@ -41,7 +41,7 @@
     --register-terms: gray;
     --border-color: hsl(var(--root-color), 8%, 65%);
     --question_marked: hsl(var(--yellow-color), 100%, 95%);
-    --code-color: hsl(0, 0%, 93%);
+    --code-color: hsl(0, 0%, 90%);
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;
