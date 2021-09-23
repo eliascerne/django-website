@@ -64,7 +64,7 @@
 .user_container{
     display: flex;
     gap: .5rem;
-    padding: .5rem;
+    padding: .35rem;
     box-shadow: 0 0 6px var(--shadow-color);
     border-radius: 1rem;
     width: fit-content;
@@ -73,10 +73,13 @@
 .user_img{
     display: flex;
     align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-top: .40rem;
 }
 
 .user_stats{
-    color: var(--first-color);
+    color: var(--blue-color-hsl);
 }
 
 .answer_header{

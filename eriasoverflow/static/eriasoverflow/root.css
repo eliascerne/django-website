@@ -13,7 +13,7 @@
     /* Change base color */
     --root-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     --blue-color: 223;
-    --yellow-color: 54
+    --yellow-color: 54;
 
     /* HSL color mode */
     --first-color: hsl(var(--root-color), 69%, 61%);
