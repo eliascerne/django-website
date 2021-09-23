@@ -75,6 +75,10 @@
     align-items: center;
 }
 
+.user_stats{
+    color: var(--first-color);
+}
+
 .answer_header{
     margin-left: 2rem;
     font-size: calc(var(--h2-font-size) - .25rem);
@@ -111,4 +115,8 @@
     width: 100%;
     resize: none;
     overflow: hidden;
+}
+
+.your_answer_button{
+    margin-top: .75rem;
 }
