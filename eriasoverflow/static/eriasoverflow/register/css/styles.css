@@ -56,13 +56,13 @@
     text-align: center;
 }
 
-.register_register{
+.register_login{
     color: var(--blue-color-hsl);
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-semi-bold);
 }
 
-.register_register:hover{
+.register_login:hover{
     color: var(--blue-color-hsl-darker);
 }
 
