@@ -49,12 +49,12 @@
 
 .question_title{
     color: var(--first-color-light);
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
 .question_subtitle{
-    font-size: var(--normal-font-size);
+    font-size: var(--small-font-size);
 }
 
 .question_metatags{
