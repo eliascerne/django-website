@@ -109,4 +109,6 @@
 
 .your_answer_input{
     width: 100%;
+    resize: none;
+    overflow: hidden;
 }
