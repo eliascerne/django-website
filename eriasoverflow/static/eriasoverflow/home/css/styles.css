@@ -27,6 +27,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: .45rem 1rem;
+    max-height: max-content;
 }
 
 .question_icon{
@@ -48,15 +49,15 @@
 
 .question_title{
     color: var(--first-color-light);
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
 }
 
 .question_subtitle{
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
 }
 
-.question_subsubtitle{
+.question_metatags{
     padding-top: .5rem;
     font-size: var(--smaller-font-size);
     display: flex;

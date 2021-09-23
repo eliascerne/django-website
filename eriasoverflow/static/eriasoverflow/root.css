@@ -30,7 +30,7 @@
     --scroll-thumb-color: hsl(var(--root-color), 12%, 80%);
     --scroll-thumb-color-hover: hsl(var(--root-color), 8%, 65%);
     --container-color: white;
-    --shadow-color: hsl(var(--root-color), 92%, 64%, 48%);
+    --shadow-color: hsl(var(--blue-color), 92%, 64%, 48%);
     --tag-color: hsl(var(--blue-color), 45%, 85%);
     --tag-color-darker: hsl(var(--blue-color), 60%, 80%);
     --search-border: hsl(0, 0%, 75%);
