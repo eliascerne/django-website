@@ -103,6 +103,8 @@
     border: none;
     outline: none;
     font-size: var(--h3-font-size);
+    background-color: var(--body-color);
+    padding-top: .5rem;
 }
 
 .your_answer_input{
