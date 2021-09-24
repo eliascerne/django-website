@@ -320,4 +320,8 @@ img{
      body{
          margin: 0;
      }
+
+     .section{
+         padding: 3rem 0 2rem;
+     }
 }
