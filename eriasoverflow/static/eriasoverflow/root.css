@@ -294,6 +294,8 @@ img{
     outline: none;
 }
 
+/* MEDIA QUERIES */
+/* SMALL DEVICES (GALAXY FOLD) */
 @media screen and (max-width: 350px){
     .nav_menu{
         padding: 2rem .25rem 4rem;
@@ -306,4 +308,12 @@ img{
     .search{
         padding-right: 1.5rem;
     }
+}
+
+/* MEDIUM DEVICES */
+@media screen and (min-width: 768px){
+     .container{
+         margin-left: auto;
+         margin-right: auto;
+     }
 }
