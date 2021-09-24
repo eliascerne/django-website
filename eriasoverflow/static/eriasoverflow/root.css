@@ -302,4 +302,8 @@ img{
     .nav_list{
         column-gap: 0;
     }
+
+    .search{
+        padding-right: 1.5rem;
+    }
 }
