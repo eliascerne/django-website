@@ -249,6 +249,10 @@ img{
     color: var(--first-color-alt);
 }
 
+.nav_rectangle{
+    display: none;
+}
+
 /* show nav */
 .show-menu{
     bottom: 0;
@@ -357,5 +361,9 @@ img{
 
      .nav_menu{
          margin-left: auto;
+     }
+
+     .nav_rectangle{
+         display: unset;
      }
 }
