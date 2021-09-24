@@ -109,4 +109,8 @@
     .question_subtitle{
         font-size: var(--smaller-font-size);
     }
+
+    .question_metadata{
+        height: max-content;
+    }
 }
