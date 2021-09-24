@@ -293,3 +293,9 @@ img{
     border: none;
     outline: none;
 }
+
+@media screen and (max-width: 350px){
+    .nav_menu{
+        padding: 2rem .25rem 4rem;
+    }
+}
