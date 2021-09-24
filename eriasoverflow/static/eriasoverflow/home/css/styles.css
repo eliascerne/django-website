@@ -90,4 +90,10 @@
     padding-left: .5rem;
 }
 
-/* LOGIN */
+/* MEDIA QUERIES */
+/* SMALL DEVICES (GALAXY FOLD) */
+@media screen and (max-width: 350px){
+    .question_container{
+        margin: .5rem;
+    }
+}
