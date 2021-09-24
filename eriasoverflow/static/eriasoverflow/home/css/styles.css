@@ -117,4 +117,8 @@
     .question_metadata{
         height: max-content;
     }
+
+    .question_data{
+        margin-left: .5rem;
+    }
 }
