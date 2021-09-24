@@ -370,4 +370,10 @@ img{
      .nav_hide{
          display: none;
      }
+
+     .user_img{
+        width: 30px;
+        height: 30px;
+        border-radius: 0.45rem;
+    }
 }
