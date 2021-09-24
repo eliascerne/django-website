@@ -346,6 +346,10 @@ img{
          display: none;
      }
 
+     .nav_link_text{
+         display: none;
+     }
+
      .nav_list{
          display: flex;
          column-gap: 2rem;
