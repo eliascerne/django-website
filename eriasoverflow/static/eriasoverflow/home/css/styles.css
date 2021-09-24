@@ -103,6 +103,7 @@
 
     .question_title{
         font-size: var(--small-font-size);
+        font-weight: var(--font-semi-bold);
     }
 
     .question_subtitle{
