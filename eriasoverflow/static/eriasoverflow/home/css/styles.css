@@ -104,4 +104,8 @@
     .question_title{
         font-size: var(--small-font-size);
     }
+
+    .question_subtitle{
+        font-size: var(--smaller-font-size);
+    }
 }
