@@ -122,4 +122,8 @@
     .question_data{
         margin-left: .5rem;
     }
+
+    .question_meta{
+        font-size: var(--smaller-font-size);
+    }
 }
