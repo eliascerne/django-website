@@ -100,4 +100,8 @@
     .main_title{
         font-size: var(--h2-font-size);
     }
+
+    .question_title{
+        font-size: var(--small-font-size);
+    }
 }
