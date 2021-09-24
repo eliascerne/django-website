@@ -5,7 +5,8 @@
 /* Heading */
 .main_title{
     font-size: var(--h1-font-size);
-    text-align: center;
+    text-align: auto;
+    margin-left: 5rem;
     color: var(--first-color);
 }
 
