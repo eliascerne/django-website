@@ -11,12 +11,12 @@
 
     /* Colors */
     /* Change base color */
-    --root-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --root-color: 235; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     --blue-color: 223;
     --yellow-color: 54;
 
     /* HSL color mode */
-    --first-color: hsl(var(--root-color), 69%, 61%);
+    --first-color: hsl(var(--root-color), 92%, 64%);
     --first-color-second: hsl(var(--root-color), 69%, 61%);
     --first-color-alt: hsl(var(--root-color), 57%, 53%);
     --first-color-light: hsl(var(--blue-color), 92%, 64%);
