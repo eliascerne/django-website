@@ -96,4 +96,8 @@
     .question_container{
         margin: .5rem;
     }
+    
+    .main_title{
+        font-size: var(--h2-font-size);
+    }
 }
