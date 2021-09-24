@@ -38,6 +38,7 @@
     --register-form-border: hsl(var(--blue-color), 98%, 54%);
     --blue-color-hsl: hsl(var(--blue-color), 98%, 54%);
     --blue-color-hsl-darker: hsl(var(--blue-color), 98%, 40%);
+    --blue-color-hsl-lighter: hsl(var(--blue-color), 98%, 70%);
     --register-terms: gray;
     --border-color: hsl(var(--root-color), 8%, 65%);
     --question_marked: hsl(var(--yellow-color), 100%, 95%);
@@ -326,7 +327,7 @@ img{
      }
 
      .section{
-         padding: 3rem 0 2rem;
+         padding: 4rem 0 2rem;
      }
 
      .header{
@@ -382,5 +383,18 @@ img{
         width: 50%;
         padding-top: .065rem;
         margin-left: 5.5rem;
+    }
+
+    .search_content{
+        border: .187rem solid var(--search-border);
+    }
+
+    .search:focus{
+        border: .187rem solid var(--blue-color-hsl-lighter);
+    }
+
+    .search_input{
+        color: var(--title-color);
+        font-size: calc(var(--normal-font-size) - .05rem);
     }
 }
