@@ -366,4 +366,8 @@ img{
      .nav_rectangle{
          display: unset;
      }
+
+     .nav_hide{
+         display: none;
+     }
 }
