@@ -404,6 +404,6 @@ img{
 @media screen and (min-width: 1024px){
     .header,
     .main{
-        padding: 0;
+        padding: auto;
     }
 }
