@@ -184,6 +184,10 @@
         font-size: calc(var(--h1-font-size) + .5rem);
     }
 
+    .sidebar_container{
+        padding-bottom: 10rem;
+    }
+
     .sidebar_content{
         font-size: calc(var(--h3-font-size))
     }
