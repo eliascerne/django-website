@@ -183,4 +183,8 @@
     .main_header{
         font-size: calc(var(--h1-font-size) + .5rem);
     }
+
+    .sidebar_content{
+        font-size: calc(var(--h3-font-size))
+    }
 }
