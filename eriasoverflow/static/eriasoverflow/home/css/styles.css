@@ -3,7 +3,7 @@
 
 
 /* Heading */
-.main_title{
+.main_header{
     font-size: var(--h1-font-size);
     text-align: center;
     color: var(--first-color);
@@ -111,7 +111,7 @@
         padding-right: .25rem;
     }
     
-    .main_title{
+    .main_header{
         font-size: var(--h2-font-size);
     }
 
@@ -138,7 +138,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .main_title{
+    .main_header{
         text-align: left;
         margin-left: 5.7rem;
     }
@@ -178,5 +178,7 @@
 
 /* FOR LARGE DEVICES */
 @media screen and (min-width: 1024px){
-    
+    .main_header{
+        font-size: calc(var(--h1-font-size) + .5rem);
+    }
 }
