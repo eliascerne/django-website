@@ -406,4 +406,8 @@ img{
     .main{
         padding: auto;
     }
+
+    .search{
+        left: 9rem;
+    }
 }
