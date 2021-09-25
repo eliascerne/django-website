@@ -203,7 +203,8 @@
 
     .right_sidebar_rectangle{
         position: fixed;
-        background-color: var(--first-color);
+        background-color: var(--body-color);
+        box-shadow: 0 0 6px var(--shadow-color);
         border-radius: .7rem;
         padding: .8rem;
         margin-top: 1.1rem;
