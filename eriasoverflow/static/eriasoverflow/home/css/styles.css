@@ -137,6 +137,8 @@
     }
 }
 
+/* MEDIUM DEVIES */
+
 @media screen and (min-width: 768px) {
     .main_header{
         text-align: left;
@@ -176,7 +178,7 @@
     }
 }
 
-/* FOR LARGE DEVICES */
+/* LARGE DEVICES */
 @media screen and (min-width: 1024px){
     .main_header{
         font-size: calc(var(--h1-font-size) + .5rem);
