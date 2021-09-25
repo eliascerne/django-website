@@ -160,6 +160,7 @@
         padding: .8rem;
         padding-bottom: 1rem;
         margin-top: 1.1rem;
+        margin-left: .4rem;
         height: fit-content;
         visibility: unset;
         display: unset;
@@ -182,10 +183,12 @@
 @media screen and (min-width: 1024px){
     .main_header{
         font-size: calc(var(--h1-font-size) + .5rem);
+        margin-left: 6.5rem;
     }
 
     .left_sidebar_container{
         padding-bottom: 10rem;
+        margin-left: .75rem;
     }
 
     .left_sidebar_content{
@@ -193,12 +196,28 @@
     }
 
     .question_main{
+        padding-left: 1rem;
         margin-right: 15rem;
     }
 
     .right_sidebar_container{
         position: fixed;
         right: 7rem;
+    }
+    
+    .new_question{
+        margin-left: 1rem;
+        padding: .15rem;
+        padding-right: .4rem;
+        padding-left: .4rem;
+        border-radius: .6rem;
+        background-color: var(--first-color);
+    }
+
+    .new_question_button{
+        color: white;
+        font-size: var(--smaller-font-size);
+        font-weight: var(--font-semi-bold);
     }
 
     .right_sidebar_rectangle{
