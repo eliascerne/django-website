@@ -222,4 +222,14 @@
         text-align: center;
         font-size: calc(var(--normal-font-size) - .05rem);
     }
+
+    .new_question{
+        padding: .2rem;
+        background-color: var(--first-color);
+        font-size: var(--small-font-size);
+        text-align: center;
+    }
+
+    .new_question_button{
+    }
 }
