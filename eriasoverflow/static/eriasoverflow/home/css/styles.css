@@ -9,9 +9,6 @@
     color: var(--first-color);
 }
 
-.main_container{
-}
-
 .sidebar_container{
     display: none;
 }
