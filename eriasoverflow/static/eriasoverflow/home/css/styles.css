@@ -13,6 +13,10 @@
     display: none;
 }
 
+.right_sidebar_container{
+    display: none;
+}
+
 /* QUESTION */
 .question_main{
     margin-left: 0rem;
@@ -155,6 +159,8 @@
 
     .question_main{
         margin-left: 4rem;
+        margin-right: 2rem;
+        width: 100%;
     }
     
     .left_sidebar_container{
@@ -206,6 +212,7 @@
     }
 
     .right_sidebar_container{
+        display: unset;
         transform: translateY(-1rem);
         margin-right: 1.3rem;
     }
