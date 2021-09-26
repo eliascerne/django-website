@@ -257,3 +257,19 @@
         color: white;
     }
 }
+
+@media screen and (min-width: 1124px){
+    .right_sidebar_container{
+        margin-right: 2rem;
+    }
+
+    .question_main{
+        margin-left: 6rem;
+        margin-right: auto;
+        width: 72%;
+    }
+
+    .left_sidebar_container{
+        margin-left: 1.4rem;
+    }
+}
