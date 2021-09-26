@@ -422,4 +422,8 @@ img{
     .section{
         padding: 6rem 0 4rem;
     }
+
+    .search{
+        margin-left: 10rem;
+    }
 }
