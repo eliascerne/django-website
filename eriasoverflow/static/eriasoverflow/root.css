@@ -339,7 +339,7 @@ img{
      .header,
      .main,
      .footer_container{
-         padding: 0 1rem;
+         padding: 0rem 0rem 0 1.75rem;
      }
 
      .nav{
