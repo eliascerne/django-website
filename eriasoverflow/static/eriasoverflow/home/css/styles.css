@@ -118,6 +118,14 @@
         padding-left: .5rem;
         padding-right: .25rem;
     }
+
+    .question_tags{
+        display: flex;
+        gap: .45rem;
+        height: 20px;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
     
     .main_header{
         font-size: var(--h2-font-size);
