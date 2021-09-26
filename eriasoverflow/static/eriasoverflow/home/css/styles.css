@@ -360,4 +360,8 @@
     .left_sidebar_container{
         margin-left: 3rem;
     }
+
+    .right_sidebar_container{
+        margin-right: 12rem;
+    }
 }
