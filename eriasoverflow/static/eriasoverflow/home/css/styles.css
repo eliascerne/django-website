@@ -195,6 +195,10 @@
     .left_sidebar_border{
         border-top: .05rem solid white;
     }
+
+    .left_sidebar_text{
+        display: none;
+    }
 }
 
 /* LARGE DEVICES */
@@ -289,6 +293,7 @@
     
     .left_sidebar_text{
         font-size: var(--normal-font-size);
+        display: unset;
     }
 
     .left_sidebar_container{
@@ -300,8 +305,9 @@
     }
 
     .question_main{
-        margin-left: 11rem;
-        margin-right: 1rem;
+        margin-left: 11.5rem;
+        margin-right: auto;
+        width: 65%;
     }
 
     .main_header{
