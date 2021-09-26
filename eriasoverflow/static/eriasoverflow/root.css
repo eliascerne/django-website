@@ -430,5 +430,8 @@ img{
 }
 
 @media screen and (min-width: 1614px){
-    
+    .search{
+        margin-left: 20rem;
+        width: 40%;
+    }
 }
