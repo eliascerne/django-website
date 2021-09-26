@@ -430,6 +430,10 @@ img{
 }
 
 @media screen and (min-width: 1614px){
+    .section{
+        padding: 6rem 0 4rem;
+    }
+    
     .search{
         margin-left: 20rem;
         width: 40%;
