@@ -325,4 +325,8 @@
         margin-right: auto;
         width: 60%;
     }
+
+    .right_sidebar_container{
+        margin-right: 6rem;
+    }
 }
