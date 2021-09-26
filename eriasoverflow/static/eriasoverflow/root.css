@@ -411,3 +411,9 @@ img{
         left: 9rem;
     }
 }
+
+@media screen and (min-width: 1124px){
+    .search{
+        margin-left: 8rem;
+    }
+}
