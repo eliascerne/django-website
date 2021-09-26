@@ -368,13 +368,13 @@
 
 @media screen and (min-width: 1832px){
     .question_main{
-        margin-left: 16rem;
+        margin-left: 19rem;
         margin-right: auto;
         width: 50%;
     }
 
     .main_header{
-        margin-left: 17.4rem;
+        margin-left: 20.4rem;
     }
 
     .left_sidebar_container{
@@ -383,5 +383,11 @@
 
     .right_sidebar_container{
         margin-right: 18rem;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .right_sidebar_container{
+        margin-right: 20rem;
     }
 }
