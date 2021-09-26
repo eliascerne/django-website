@@ -435,3 +435,9 @@ img{
         width: 40%;
     }
 }
+
+@media screen and (min-width: 1832px){
+    .section{
+        padding: 7rem 0 4rem;
+    }
+}
