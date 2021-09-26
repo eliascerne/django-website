@@ -197,7 +197,12 @@
     }
 
     .left_sidebar_text{
+        color: white;
         display: none;
+    }
+
+    .left_sidebar_icon{
+        color: white;
     }
 }
 
@@ -328,5 +333,16 @@
 
     .right_sidebar_container{
         margin-right: 6rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .right_sidebar_container{
+        margin-right: 9rem;
+    }
+
+    .right_sidebar_rectangle{
+        padding: 2.3rem;
+        margin-right: 
     }
 }
