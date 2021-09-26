@@ -220,13 +220,15 @@
     }
 
     .right_sidebar_container{
-        display: unset;
+        display: grid;
         transform: translateY(-1rem);
         margin-right: 1.3rem;
     }
 
     .right_sidebar_rectangle{
         padding: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         margin-bottom: 1.5rem;
         background-color: var(--body-color);
         box-shadow: 0 0 6px var(--shadow-color);
@@ -244,7 +246,7 @@
         padding-left: .5rem;
         padding-right: .5rem;
         margin-bottom: .5rem;
-        margin-left: 1.75rem;
+        margin-left: 2.2rem;
         background-color: var(--first-color);
         border-radius: .5rem;
         width: max-content;
@@ -275,5 +277,34 @@
 
     .main_header{
         margin-left: 7.5rem;
+    }
+}
+
+@media screen and (min-width: 1220px){
+    .left_sidebar_list{
+        display: flex;
+        align-items: center;
+        gap: .75rem;
+    }
+    
+    .left_sidebar_text{
+        font-size: var(--normal-font-size);
+    }
+
+    .left_sidebar_container{
+        padding-right: 3rem;
+    }
+    
+    .left_sidebar_border{
+        width: 135%;
+    }
+
+    .question_main{
+        margin-left: 11rem;
+        margin-right: 1rem;
+    }
+
+    .main_header{
+        margin-left: 12.5rem;
     }
 }
