@@ -345,3 +345,19 @@
         padding: 2.3rem;
     }
 }
+
+@media screen and (min-width: 1614px){
+    .question_main{
+        margin-left: 14.5rem;
+        margin-right: auto;
+        width: 55%;
+    }
+
+    .main_header{
+        margin-left: 16.3rem;
+    }
+
+    .left_sidebar_container{
+        margin-left: 3rem;
+    }
+}
