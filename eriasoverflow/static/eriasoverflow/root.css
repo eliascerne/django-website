@@ -6,8 +6,8 @@
 :root {
     --header-height: 3rem;
 
-    --max-root-width: 1500px;
-    --max-nav-width: 1500px;
+    --max-root-width: 1800px;
+    --max-nav-width: 2000px;
 
     /* Colors */
     /* Change base color */
@@ -427,4 +427,8 @@ img{
         margin-left: 12rem;
         width: 45%;
     }
+}
+
+@media screen and (min-width: 1528px){
+    
 }
