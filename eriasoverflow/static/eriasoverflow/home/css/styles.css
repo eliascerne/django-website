@@ -365,3 +365,23 @@
         margin-right: 12rem;
     }
 }
+
+@media screen and (min-width: 1832px){
+    .question_main{
+        margin-left: 16rem;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .main_header{
+        margin-left: 17.4rem;
+    }
+
+    .left_sidebar_container{
+        margin-left: 4rem;
+    }
+
+    .right_sidebar_container{
+        margin-right: 18rem;
+    }
+}
