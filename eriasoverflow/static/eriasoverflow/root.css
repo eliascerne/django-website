@@ -424,6 +424,7 @@ img{
     }
 
     .search{
-        margin-left: 10rem;
+        margin-left: 12rem;
+        width: 45%;
     }
 }
