@@ -368,6 +368,10 @@
     .right_sidebar_container{
         margin-right: 12rem;
     }
+
+    .main_header{
+        font-size: calc(var(--h1-font-size) + 1rem);
+    }
 }
 
 @media screen and (min-width: 1832px){
