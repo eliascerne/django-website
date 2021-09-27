@@ -80,6 +80,7 @@
     }
 
     .login_button{
+        padding: 1rem;
         font-size: var(--small-font-size);
     }
 }
