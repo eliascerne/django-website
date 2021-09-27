@@ -70,4 +70,8 @@
     .login_content{
         padding-top: 2rem;
     }
+
+    .login_register{
+        font-size: var(--smaller-font-size);
+    }
 }
