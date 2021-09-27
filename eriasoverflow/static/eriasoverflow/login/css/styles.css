@@ -83,4 +83,11 @@
         padding: 1rem;
         font-size: var(--small-font-size);
     }
+
+    .login_button_link{
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
+    }
 }
