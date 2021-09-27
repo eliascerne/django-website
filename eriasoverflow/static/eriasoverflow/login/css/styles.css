@@ -74,4 +74,8 @@
     .login_register{
         font-size: var(--smaller-font-size);
     }
+
+    .login_input{
+        font-size: var(--small-font-size);
+    }
 }
