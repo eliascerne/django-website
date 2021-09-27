@@ -78,4 +78,8 @@
     .login_input{
         font-size: var(--small-font-size);
     }
+
+    .login_button{
+        font-size: var(--small-font-size);
+    }
 }
