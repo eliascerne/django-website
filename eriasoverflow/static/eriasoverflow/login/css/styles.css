@@ -91,3 +91,9 @@
         padding-bottom: .4rem;
     }
 }
+
+@media screen and (min-width: 512px) {
+    .login_form{
+        max-width: 32rem;
+    }
+}
