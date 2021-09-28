@@ -10,7 +10,10 @@
 }
 
 .login_content{
-    padding-top: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .login_form{
@@ -94,6 +97,6 @@
 
 @media screen and (min-width: 512px) {
     .login_form{
-        max-width: 32rem;
+        max-width: 100%;
     }
 }
