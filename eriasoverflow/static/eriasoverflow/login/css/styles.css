@@ -112,3 +112,10 @@
         padding-left: 6rem;
     }
 }
+
+@media screen and (min-width: 808px){
+    .login_content{
+        padding-right: 8.5rem;
+        padding-left: 8.5rem;
+    }
+}
