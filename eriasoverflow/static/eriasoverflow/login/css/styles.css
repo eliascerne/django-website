@@ -71,10 +71,6 @@
 }
 
 @media screen and (max-width: 350px){
-    .login_content{
-        padding-top: 3rem;
-    }
-
     .login_register{
         font-size: var(--smaller-font-size);
     }
@@ -97,7 +93,5 @@
 }
 
 @media screen and (min-width: 512px) {
-    .login_form{
-        max-width: 100%;
-    }
+    
 }
