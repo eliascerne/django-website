@@ -87,3 +87,7 @@ local_settings.py
 
 .env
 db.sqlite3
+.DS_Store
+.gitignore
+.DS_Store
+eriasoverflow/.DS_Store

@@ -49,7 +49,7 @@
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 5rem;
-    --h1-font-size: 3rem;
+    --h1-font-size: 2.5rem;
     --h2-font-size: 2rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
@@ -81,7 +81,7 @@
 @media screen and (min-width: 968px) {
     :root {
         --big-font-size: 3rem;
-        --h1-font-size: 3.5rem;
+        --h1-font-size: 2rem;
         --h2-font-size: 2.5rem;
         --h3-font-size: 1.25rem;
         --normal-font-size: 1rem;
@@ -186,6 +186,11 @@ img{
 .nav_toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+}
+
+.nav_logo {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
 }
 
 .nav_logo:hover{
@@ -298,6 +303,7 @@ img{
     font-size: var(--normal-font-size);
     border: none;
     outline: none;
+    font-weight: var(--font-semi-bold);
 }
 
 /* MEDIA QUERIES */
